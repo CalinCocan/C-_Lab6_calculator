@@ -183,7 +183,7 @@
             this.buttonMult.TabIndex = 13;
             this.buttonMult.Text = "*";
             this.buttonMult.UseVisualStyleBackColor = true;
-            this.buttonMult.Click += new System.EventHandler(this.buttonMult_Click);
+            this.buttonMult.Click += new System.EventHandler(this.buttonOperator_Click);
             // 
             // buttonDiv
             // 
@@ -194,7 +194,7 @@
             this.buttonDiv.TabIndex = 14;
             this.buttonDiv.Text = "/";
             this.buttonDiv.UseVisualStyleBackColor = true;
-            this.buttonDiv.Click += new System.EventHandler(this.buttonDiv_Click);
+            this.buttonDiv.Click += new System.EventHandler(this.buttonOperator_Click);
             // 
             // buttonMinus
             // 
@@ -205,7 +205,7 @@
             this.buttonMinus.TabIndex = 15;
             this.buttonMinus.Text = "-";
             this.buttonMinus.UseVisualStyleBackColor = true;
-            this.buttonMinus.Click += new System.EventHandler(this.buttonMinus_Click);
+            this.buttonMinus.Click += new System.EventHandler(this.buttonOperator_Click);
             // 
             // buttonPlus
             // 
@@ -216,7 +216,7 @@
             this.buttonPlus.TabIndex = 16;
             this.buttonPlus.Text = "+";
             this.buttonPlus.UseVisualStyleBackColor = true;
-            this.buttonPlus.Click += new System.EventHandler(this.buttonPlus_Click);
+            this.buttonPlus.Click += new System.EventHandler(this.buttonOperator_Click);
             // 
             // buttonEgal
             // 
@@ -233,6 +233,7 @@
             // 
             this.textBoxAfisaj.Enabled = false;
             this.textBoxAfisaj.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxAfisaj.ForeColor = System.Drawing.Color.Black;
             this.textBoxAfisaj.Location = new System.Drawing.Point(24, 48);
             this.textBoxAfisaj.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxAfisaj.Name = "textBoxAfisaj";
@@ -256,7 +257,7 @@
             this.buttonDecimalP.Name = "buttonDecimalP";
             this.buttonDecimalP.Size = new System.Drawing.Size(24, 23);
             this.buttonDecimalP.TabIndex = 19;
-            this.buttonDecimalP.Text = ",";
+            this.buttonDecimalP.Text = ".";
             this.buttonDecimalP.UseVisualStyleBackColor = true;
             this.buttonDecimalP.Click += new System.EventHandler(this.buttonCifra_Click);
             // 
